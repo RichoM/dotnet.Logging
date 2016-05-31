@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Logging")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("RichoM.Logging")]
+[assembly: AssemblyDescription("A very small and simple library to do some logging. https://github.com/RichoM/dotnet.Logging")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Logging")]
+[assembly: AssemblyCompany("Ricardo Moran")]
+[assembly: AssemblyProduct("RichoM.Logging")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
