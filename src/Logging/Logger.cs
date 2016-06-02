@@ -79,6 +79,10 @@ namespace Logging
         private void ValidateDirectoryPath()
         {
             string dirPath = Path.GetDirectoryName(path);
+            if (string.IsNullOrWhiteSpace(dirPath))
+            {
+                dirPath = Directory.GetCurrentDirectory();
+            }
             if (!Directory.Exists(dirPath))
             {
                 Directory.CreateDirectory(dirPath);
